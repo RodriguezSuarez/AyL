@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+}
+.home header {
+  display: flex;
+  flex-direction: column;
+}
+.home h1 {
+  font-size: 5rem;
+  color: palevioletred;
+  text-shadow: 1px 1px 3px purple;
+  text-align: center;
+}
+.home ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.home li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: palevioletred;
+}
+.card {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 1rem;
+  align-items: center;
+  width: auto;
+  border: none;
+  color: palevioletred;
+  text-shadow: 1px 1px 1px purple;
+}
+.card-img-top {
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px palevioletred;
+}
+a.btn.btn-primary {
+  text-shadow: none;
+  background: plum;
+  border: purple;
+}
+a.btn.btn-primary:hover,
+a.btn.btn-primary::selection {
+  color: palevioletred;
+}
+td {
+  color: purple;
+}
+.home main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home #sectionSeleccionProductos {
+  justify-items: center;
+  align-self: center;
+  padding: 1rem;
+}
+.inputSeleccion {
+  background: purple;
+  color: pink;
+  border: none;
+  border-radius: 0.7rem;
+  box-shadow: 0 0 5px 1px purple;
+  text-align: center;
+  padding: 0.5rem;
+  align-self: center;
+}
